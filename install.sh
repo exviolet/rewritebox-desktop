@@ -19,7 +19,8 @@ chmod +x ~/.local/bin/rewritebox-desktop
 
 cp "$ICON" ~/.local/share/icons/hicolor/256x256/apps/rewritebox.png
 
-cp "$DESKTOP" ~/.local/share/applications/com.rewritebox.app.desktop
+sed "s|Exec=rewritebox-desktop|Exec=$HOME/.local/bin/rewritebox-desktop|" "$DESKTOP" \
+  > ~/.local/share/applications/com.rewritebox.app.desktop
 
 echo "RewriteBox установлен:"
 echo "  Бинарник: ~/.local/bin/rewritebox-desktop"

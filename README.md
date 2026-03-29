@@ -2,6 +2,14 @@
 
 Нативная desktop-обёртка для [RewriteBox](https://github.com/exviolet/rewritebox) на базе Tauri v2.
 
+## Возможности
+
+- Нативные файловые диалоги (открытие, сохранение, экспорт/импорт)
+- Кастомный title bar с window controls
+- Восстановление закрытых табов (Ctrl+Shift+T)
+- Глобальные toast-уведомления
+- Все возможности браузерной версии: табы, Find & Replace, пресеты замен, AI Prompt Builder, Markdown превью
+
 ## Требования
 
 - [Bun](https://bun.sh/) >= 1.0
@@ -24,10 +32,17 @@ bun install
 bun dev       # Vite dev server + Tauri window
 ```
 
-## Сборка
+## Сборка и установка
 
 ```bash
-bun build     # Production build
+bun run build     # Production build
+./install.sh      # Установить в ~/.local/ (бинарник + .desktop + иконка)
+```
+
+После установки приложение доступно из rofi/app launcher.
+
+```bash
+./uninstall.sh    # Удалить
 ```
 
 ## Обновление web
