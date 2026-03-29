@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=RewriteBox
+Comment=Minimal text editor with bulk replacements
+Exec=rewritebox-desktop
+Icon=rewritebox
+Type=Application
+Categories=Utility;TextEditor;
+StartupWMClass=RewriteBox
+Terminal=false
