@@ -40,10 +40,11 @@
 | # | Фича | Файл задачи | Статус |
 |---|---|---|---|
 | 1 | tmux send-keys (Ctrl+Enter → активная tmux pane) | [tasks/01-tmux-send-keys.md](../tasks/01-tmux-send-keys.md) | done |
-| 2 | Автоимя табов из первой строки + fuzzy-поиск + auto-cleanup пустых | [tasks/02-tab-organization.md](../tasks/02-tab-organization.md) | active |
-| 3 | Floating reference panel | — | queued (отдельный гриль: window vs split-pane) |
-| 4 | Bulk Find & Replace с preview | — | queued |
-| 5 | Workspaces | — | conditional — **только если #2 не решит хаос 75 Untitled** |
+| 2 | Автоимя табов из первой строки + fuzzy-поиск + auto-cleanup пустых | [tasks/02-tab-organization.md](../tasks/02-tab-organization.md) | done |
+| 3 | Tab Switcher Preview Panel | [tasks/03-tab-switcher-preview-panel.md](../tasks/03-tab-switcher-preview-panel.md) | active |
+| 4 | Floating reference panel | — | queued (отдельный гриль: window vs split-pane) |
+| 5 | Bulk Find & Replace с preview | — | queued |
+| 6 | Workspaces | — | conditional — **только если #2/#3 не решат хаос 75 Untitled** |
 
 Файлы задач создаются в `tasks/` по мере того как фича становится active. YAGNI: не создавать stub-файлы для будущих приоритетов заранее.
 
